@@ -1,5 +1,6 @@
 import './App.css';
 import StateHook from './Hooks/StateHook'
+import StateHookFour from './Hooks/StateHookFour';
 import StateHookThree from './Hooks/StateHookThree';
 import StateHookTwo from './Hooks/StateHookTwo';
 
@@ -13,6 +14,9 @@ function App() {
       <br />
       <br />
       <StateHookThree />
+      <br />
+      <br />
+      <StateHookFour />
     </div>
   );
 }
