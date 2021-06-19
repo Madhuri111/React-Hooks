@@ -3,6 +3,7 @@ import StateHook from './Hooks/StateHook'
 import StateHookFour from './Hooks/StateHookFour';
 import StateHookThree from './Hooks/StateHookThree';
 import StateHookTwo from './Hooks/StateHookTwo';
+import UseEffectHook from './Hooks/UseEffectHook';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <br />
       <br />
       <StateHookFour />
+      <br />
+      <UseEffectHook />
     </div>
   );
 }
